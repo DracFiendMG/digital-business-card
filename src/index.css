@@ -5,9 +5,210 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #202125;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.card {
+  
+  background-color: #23252C;
+  width: 550px;
+  height: 100%;
+  margin: auto;
+  padding: auto;
+  position: relative;
+}
+
+.card--layout {
+  background-color: #1A1B21;
+  width: 350px;
+  height: 450px;
+  margin: auto;
+  padding-top: 20px;
+  /* border-radius: 0 0 10px 10px; */
+  position: relative;
+}
+
+.card--name {
+  /* position: absolute; */
+  color: white;
+  font-family: 'Inter';
+  font-style: bold;
+  font-size: 25px;
+  text-align: center;
+  line-height: 1px;
+  font-weight: 700;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+}
+
+.card--role {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 0px;
+  text-align: center;
+
+  color: #F3BF99;
+}
+
+.card--web {
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  text-align: center;
+
+  color: #F5F5F5;
+}
+
+.card--email {
+  font-family: 'Inter';
+  box-sizing: border-box;
+  font-size: 15px;
+
+  /* Auto layout */
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+
+  /* position: relative; */
+  width: 115px;
+  height: 34px;
+  
+
+  /* white */
+
+  background: #FFFFFF;
+  /* gray/300 */
+
+  border: 1px solid #D1D5DB;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.card--linkedin {  
+  font-family: 'Inter';
+  font-size: 15px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+
+  width: 115px;
+  height: 34px;
+
+  background: #5093E2;
+  /* gray/300 */
+
+  border: 1px solid #5093E2;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+
+  color: white;
+}
+
+.fa-linkedin-square {
+  color: white;
+  font-size: medium;
+}
+
+.card--button {
+  display: flex;
+}
+
+.card--about, .card--interests {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.card--about-title, .card--interests-title {
+  position: relative;
+  width: 242.71px;
+  height: 21px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #F5F5F5;
+}
+
+.card--about-content, .card--interests-content {
+  position: relative;
+  width: 247px;
+  height: 61px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+
+  color: #DCDCDC;
+}
+
+.photo {
+  border-radius: 10px 10px 0 0;
+  width: 350px;
+  height: 350px;
+  display: block;
+  margin: auto;
+  object-fit: cover;
+  /* top: 40px; */
+  
+  /* padding-top: 10%; */
+  background-color: #1A1B21;
+  position: relative;
+}
+
+.card--mylinks {
+  position: relative;
+  display: flex;
+  width: 350px;
+  height: 64px;
+  margin: auto;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.fa-twitter-square, .fa-facebook-square, .fa-square-instagram, .fa-square-github {
+  color: #918E9B;
+  /* display: flex; */
+  gap: 10px;
+  font-size: 35px;
+  margin: auto;
+}
+
+.fa-twitter-square {
+  margin-left: 75px;
+}
+
+.fa-square-github {
+  margin-right: 75px;
 }
